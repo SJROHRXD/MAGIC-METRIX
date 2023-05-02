@@ -37,10 +37,11 @@
         │   │   ├── App.jsx              # Main app component
         │   │   └── main.jsx             # Entry point for React app
         │   ├── public/                  # Public assets
-        │   │   ├── images/              # Images
-        │   │   └── index.html           # HTML template
-        │   ├── package.json             # Dependencies & scripts
-        │   └── vite.config.js           # Vite configuration
+        │   │   └── images/              # Images
+        ├── package.json                 # Dependencies & scripts
+        ├── vite.config.js               # Vite configuration
+        ├── README.md                    # README - App information
+        ├── index.html                   # HTML template
 
 ### Build Package
 
@@ -52,7 +53,7 @@
 - [ ] Express.js
 - [ ] JWT _AKA_ JSON Web Token
 - [ ] MySQL _via_ mysql2
-- [ ] React Auth Kit*
+- [ ] Auth // of some sort
 
 - [ ] React BootStrap
 - [ ] Octicons _for_ React
