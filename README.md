@@ -44,15 +44,15 @@
 
 ### Build Package
 
-- [] Vite + React + Vanilla JS
+- [x] Vite + React + Vanilla JS
 
 ### Deps
 
-- [] React Router DOM
-- [] Express.js
-- [] JSON Web Token
-- [] MySQL _via_ mysql2
+- [ ] React Router DOM
+- [ ] Express.js
+- [ ] JSON Web Token
+- [ ] MySQL _via_ mysql2
 
-- [] React BootStrap
-- [] Octicons _for_ React
+- [ ] React BootStrap
+- [ ] Octicons _for_ React
 
