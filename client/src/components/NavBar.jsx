@@ -14,33 +14,27 @@ function NavBar() {
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link>
-                        {/* home, ACTIVE */}
-                        Metrix
+                        Page 1
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link>
-                        {/* home, ACTIVE */}
-                        Data Viz
+                        Page 2
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link>
-                        {/* home, ACTIVE */}
-                        Graphs+
+                        Page 3
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link>
-                        {/* home, ACTIVE */}
-                        Charts+
+                        Page 4
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link>
-                        {/* home, ACTIVE */}
-                        Visual Representation
-                        {/* with Three.js or D3.js */}
+                        Page 404
                     </Nav.Link>
                 </Nav.Item>
             </Nav>
