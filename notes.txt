@@ -1,0 +1,11 @@
+BACKEND INTEGRATION
+
+https://vitejs.dev/guide/backend-integration.html
+
+
+UX / UI NOTES
+
+https://www.youtube.com/watch?v=bJ3vn9QWzhI&ab_channel=Hyperplexed
+
+round the outer corners of the stack of elements like the Android app drawer
+
