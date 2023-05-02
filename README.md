@@ -41,7 +41,7 @@
         ├── package.json                 # Dependencies & scripts
         ├── vite.config.js               # Vite configuration
         ├── README.md                    # README - App information
-        ├── index.html                   # HTML template
+        └── index.html                   # HTML template
 
 ### Build Package
 
