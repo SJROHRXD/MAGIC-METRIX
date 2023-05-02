@@ -42,15 +42,17 @@
         │   ├── package.json             # Dependencies & scripts
         │   └── vite.config.js           # Vite configuration
 
-### 
+### Build Package
 
-[] Vite + React + Vanilla JS
+- [] Vite + React + Vanilla JS
 
 ### Deps
 
-[] React Router DOM
-[] Express.js
-[] React BootStrap
-[] Octicons _for_ React
-[] MySQL _via_ mysql2
-[] JSON Web Token
+- [] React Router DOM
+- [] Express.js
+- [] JSON Web Token
+- [] MySQL _via_ mysql2
+
+- [] React BootStrap
+- [] Octicons _for_ React
+
