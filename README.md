@@ -55,4 +55,5 @@
 
 - [ ] React BootStrap
 - [ ] Octicons _for_ React
+- [ ] ESLint Plugin _for_ React
 
