@@ -41,3 +41,16 @@
         │   │   └── index.html           # HTML template
         │   ├── package.json             # Dependencies & scripts
         │   └── vite.config.js           # Vite configuration
+
+### 
+
+[] Vite + React + Vanilla JS
+
+### Deps
+
+[] React Router DOM
+[] Express.js
+[] React BootStrap
+[] Octicons _for_ React
+[] MySQL _via_ mysql2
+[] JSON Web Token
