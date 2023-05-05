@@ -52,8 +52,9 @@
 - [ ] React Router DOM
 - [ ] Express.js
 - [ ] JWT _AKA_ JSON Web Token
-- [ ] MySQL _via_ mysql2
+- [ ] MySQL _and_ Sequelize
 - [ ] Auth // of some sort
+- [ ] 
 
 - [ ] React BootStrap
 - [ ] Octicons _for_ React
