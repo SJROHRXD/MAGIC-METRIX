@@ -1,8 +1,8 @@
-import { DataTypes } from "sequelize";
-import { hash } from "bcrypt";
+import { DataTypes } from 'sequelize';
+import { hash } from 'bcrypt';
 
 export default (sequelize) => {
-        const User = sequelize.define("User", {
+        const User = sequelize.define('User', {
         email: { type: DataTypes.STRING, allowNull: false, unique: true },
         password: { type: String, allowNull: false },
     });

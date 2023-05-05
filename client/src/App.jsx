@@ -1,11 +1,12 @@
 import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
-// styles
-import 'bootstrap/dist/css/bootstrap.min.css'
-
 // pages
-import Home from "./pages/Home.jsx"
+import Home from './pages/Home';
 import NotFound from './pages/404';
+// import the protected route
+// styles
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+// include global layout components such as the navbar and footer
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Router>
             <Routes>
               <Route path="/" element={<Home />} />
+              {/* <Route path="/protected-route" component={ProtectedRoute} /> */}
               {/* Routes+ */}
               <Route path="*" element={<NotFound />} />
             </Routes>
@@ -22,10 +24,3 @@ function App() {
 }
 
 export default App;
-
-// This file contains the main App component
-// It is rendered inside the DOM element with the id 'root' in the index.html file
-// It should include global layout components such as the navbar and footer
-// It should import and render all the pages of the app
-
-

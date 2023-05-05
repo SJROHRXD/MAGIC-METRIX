@@ -1,7 +1,8 @@
-import jwt from "jsonwebtoken";
-import express from "express";
-import User from "../models/User";
-import bcrypt from "bcrypt";
+import bcrypt from 'bcrypt';
+import express from 'express';
+import jwt from 'jsonwebtoken';
+import User from '../models/User';
+
 
 // Login route with JWT, bcrypt, and sequelize
 
@@ -14,7 +15,7 @@ import bcrypt from "bcrypt";
 
 const router = express.Router();
 
-router.post ("/login", async (req, res) => {
+router.post ('/login', async (req, res) => {
     
     const { email, password } = req.body;
 
@@ -35,7 +36,7 @@ router.post ("/login", async (req, res) => {
         expiresIn: '6h'
     });
 
-    res.json({ message: "Welcome Back!", token: token });
+    res.json({ message: 'Welcome Back!', token: token });
 });
 
 export default router;
