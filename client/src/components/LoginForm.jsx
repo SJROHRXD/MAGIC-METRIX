@@ -3,7 +3,7 @@ import { Form, Button, FormLabel } from "react-bootstrap";
 function Login() {
     return (
         <>
-        <h2>Please Login</h2>
+        <h2>Please, Log In</h2>
         <Form>
             <Form.Group>
                 <FormLabel>Password</FormLabel>

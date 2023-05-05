@@ -49,13 +49,15 @@
 
 ### Deps
 
-- [ ] React Router DOM
-- [ ] Express.js
-- [ ] JWT _AKA_ JSON Web Token
-- [ ] MySQL _via_ mysql2
-- [ ] Auth // of some sort
+- [ ] React Router DOM 6.11.0
+- [ ] Express.js 4.18.2
+- [ ] JWT _AKA_ JSON Web Token 9.0.0
+- [ ] MySQL _and_ Sequelize 3.2.4, 6.31.1
+- [ ] BCrypt // bcrypt 5.1.0
+- [ ] CORS 2.8.5
 
-- [ ] React BootStrap
-- [ ] Octicons _for_ React
-- [ ] ESLint Plugin _for_ React
+- [ ] React BootStrap 2.7.4
+- [ ] BootStrap 5.2.3
+- [ ] Octicons _for_ React 18.3.0
+- [ ] Vite 4.3.2
 
