@@ -23,7 +23,7 @@ sequelize.authenticate().then(() => {
 });
 
 // MODELS 🐸
-const User = require("./models/User")(sequelize, Sequelize); // review
+const User = require("./models/User").default(sequelize, Sequelize); // review
 
 // ROUTES 🐸
 app.use('/api/users', require('./routes/users')(User)); // definitely going to need review
