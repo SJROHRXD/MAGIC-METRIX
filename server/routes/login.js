@@ -1,29 +1,37 @@
+import jwt from "jsonwebtoken";
+import express from "express";
+import User from "../models/User";
+import bcrypt from "bcrypt";
+
+
+
 // LOGIN ROUTE W JWT LOGIC 🌷🌼
 
 // require user model 🌼
 // require jwt
 
-// router = express.Router();
+router = express.Router();
 
-// post ("/login", async (req, res) => {
-//     const {email, password} = req.body;
+router.post ("/login", async (req, res) => {
+    
+    const { email, password } = req.body;
 
-// userWEmail await User.findOne
-// err
+    const user = await User.findOne({ where: { email } });
 
-// if !userWEmail
-// return res 400
+    if(!user) {
+        return res.status(400).json({ message: 'Invalid email address or password' })
+    }
 
-// if userWEmail.password !== password
-// return res 400
+    const isPasswordValid = await bcrypt.compare(password, user.password);
 
-// const jwToke = jwt.sign
-// id: userWEmail.id, email: userWEmail.email
-// process.env.JWT_SECRET
+    if(!isPasswordValid) {
+        return res.status(400).json({ message: 'Invalid email address or password' })
+    }
 
-// });
+    // token expires in 6 hours
+    const token = jwt.sign({ id: user.id, email: user.email }, process.env.JWT_SECRET {
+        expiresIn: '6h'
+    });
 
-
-// res.json({ message: "Welcome Back!", token: jwToken });
-
-// module.exports = router;
+    res.json({ message: "Welcome Back!", token: token });
+});
